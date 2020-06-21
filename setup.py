@@ -4,16 +4,16 @@ except ImportError:
 	from disutils.core import setup
 
 config = {
-	'description' : 'My Project',
-	'author' : 'My Name',
-	'url' : 'URL to get it at',
-	'download_url' : 'Where to download it',
-	'author_email' : 'My email',
+	'description' : 'Generative Chatbot Spanish',
+	'author' : 'Evil-AI',
+	'url' : 'www.evil-ai.com',
+	'download_url' : 'None',
+	'author_email' : 'root.evil.ai@gmail.com',
 	'version' : '0.1',
 	'install_requires' : ['nose'],
 	'packages' : ['NAME'],
 	'scripts' : [],
-	'name' : 'projectname'
+	'name' : 'ParlEs'
 }
 
 setup(**config)
