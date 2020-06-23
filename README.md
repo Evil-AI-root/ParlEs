@@ -1,5 +1,5 @@
 # ParlEs
-Generative Spanish Chatbot based in Python.
+Simple Generative Spanish Chatbot based in Python.
 
 ## Install
 
