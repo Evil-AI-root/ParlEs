@@ -19,3 +19,7 @@ You can activate the virtual environment with:
 Get all dependencies with:
 
 `python ./Setup/run.py`
+
+See results:
+
+`python ./app.py`
