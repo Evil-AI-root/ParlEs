@@ -9,6 +9,8 @@ def main():
 
     my_preprocess = Preprocess.Simple(sentence)
     my_preprocess.show_tree().pretty_print()
+    print(my_preprocess.bag.counter)
+    print(my_preprocess.bag.model(10))
 
 
 if __name__ == '__main__':

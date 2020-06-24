@@ -3,6 +3,8 @@ import re
 import spacy
 from nltk.tokenize import word_tokenize
 from nltk.stem import PorterStemmer, SnowballStemmer, WordNetLemmatizer
+#
+from .Models import *
 
 
 class Simple(object):
@@ -13,6 +15,7 @@ class Simple(object):
         self.lemmatizer = WordNetLemmatizer()
         self.dependency_parser = spacy.load('es_core_news_sm')
         self.parsed_text = self.dependency_parser(self.text)
+        self.bag = BagOfWords(self.tokens)
 
     def stem(self):
         return [self.stemmer.stem(token) for token in self.tokens]
